@@ -7,7 +7,7 @@
 header{
     background-color: #24053E;
     height:60vh;
-    border-radius: 0 0 50% 50%/0 0 14% 14%;
+    border-radius: 0 0 50% 50%/0 0 10% 10%;
 }
 
 .navbar{
@@ -36,7 +36,6 @@ header{
 
 .content{
     text-align: center;
-    margin: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -77,7 +76,8 @@ div#curlRightImage{
 .cellPhoneImage img{
     display: block;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto; 
+    width: 569px;  
 }  
 
 

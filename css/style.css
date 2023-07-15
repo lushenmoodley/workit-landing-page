@@ -9,6 +9,7 @@ body{
     font-family: 'Fraunces 144pt';
     font-style: normal;
     line-height: 40px;
+    background: #FCF8FF;
 }
 
 header{
@@ -93,7 +94,7 @@ div#curlRightImage{
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    margin-top: 130px;
+    padding-top: 130px;
     color:#24053E;
 }  
 
@@ -122,3 +123,39 @@ div#curlRightImage{
 .flex-items .items p {
     line-height: 32px;
 }
+
+.flex-content-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.person_img{
+    background-color: #44FFA1;
+    border-radius: 50%;
+}
+
+.profile-content {
+    position: relative;
+    right: 75px;
+    top: 111px;
+    background-color: #24053E;
+    color:#FFFFFF
+}
+
+.profile-content span {
+    font-family: 'Fraunces 144pt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+.profile-content p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+

@@ -59,9 +59,13 @@ header{
     font-family: 'Fraunces 144pt';
 }
 
+header .content button.btn{
+    margin: 30px auto;
+}
+
 button.btn{
+    margin-top: 35px;
     display: block;
-    margin:30px auto;
     background-color: #44FFA1;
     border: none;
     color: white;
@@ -138,9 +142,12 @@ div#curlRightImage{
 .profile-content {
     position: relative;
     right: 75px;
-    top: 111px;
+    top: 130px;
     background-color: #24053E;
-    color:#FFFFFF
+    color:#FFFFFF;    
+    height: AUTO;
+    width: 681px;
+    padding:73px;
 }
 
 .profile-content span {
@@ -157,5 +164,12 @@ div#curlRightImage{
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
+    margin-top: 25px;
 }
 
+.profile-content img{
+    position: absolute;
+    top: 291px;
+    right: 52px;    
+}
+}

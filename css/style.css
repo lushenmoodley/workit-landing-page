@@ -155,4 +155,19 @@ div#curlRightImage{
     top: 291px;
     right: 52px;    
 }
+ 
+.footer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    top:100px;
+    height: 150px;;
 }
+
+.footer p{
+    color:#24053E;
+    font-size: 30px;
+}
+

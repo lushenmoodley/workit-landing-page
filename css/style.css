@@ -63,23 +63,6 @@ header .content button.btn{
     margin: 30px auto;
 }
 
-button.btn{
-    margin-top: 35px;
-    display: block;
-    background-color: #44FFA1;
-    border: none;
-    color: white;
-    padding:10px 10px;
-    cursor: pointer;
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 32px;
-    /* identical to box height, or 178% */
-    text-align: center;
-    letter-spacing: -0.18px;
-}
 
 div#curlRightImage{
     position: relative;

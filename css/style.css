@@ -261,7 +261,9 @@ header:after{
     background-color:  #FCF8FF;/*#FCF8FF*/
     }
 
-  
+    .borderbackground{
+        height: 504px
+    }
 
 }
 

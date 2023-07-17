@@ -153,10 +153,9 @@ div#curlRightImage{
 }
 
 .profile-content img{
-    display: block;
-    margin-left: auto;
- 
-
+    position: absolute;
+    left: 60%;
+    top: 76%;
 }
  
 .footer{
@@ -177,6 +176,10 @@ div#curlRightImage{
  /*Smartphones*/
  @media(max-width:500px){
    
+    .profile-content img{
+        display: none;
+    }
+
     .content{
         justify-content: center;
     }
@@ -227,9 +230,7 @@ div#curlRightImage{
         top: 103px;
     }
 
-    #imageCurl{
-        display: none;;
-    }
+  
 
 }
 
@@ -265,10 +266,6 @@ div#curlRightImage{
         align-items: center;
         text-align: center;
         padding-top: 200px;
-    }
-
-    .profile-content img{
-        position: relative;
     }
 
     body{

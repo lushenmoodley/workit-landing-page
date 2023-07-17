@@ -24,7 +24,7 @@ header{
     display: flex;
     flex-direction: row;    
     justify-content: space-around;
-    padding:10px;
+    padding:30px;
     color:white;
 }
 
@@ -120,6 +120,7 @@ div#curlRightImage{
 .person_img{
     background-color: #44FFA1;
     border-radius: 50%;
+    height: 480px;
 }
 
 .profile-content {
@@ -129,8 +130,9 @@ div#curlRightImage{
     background-color: #24053E;
     color:#FFFFFF;    
     height: AUTO;
-    width: 681px;
     padding:73px;
+   
+    max-width: 600px;
 }
 
 .profile-content span {
@@ -151,9 +153,10 @@ div#curlRightImage{
 }
 
 .profile-content img{
-    position: absolute;
-    top: 291px;
-    right: 52px;    
+    display: block;
+    margin-left: auto;
+ 
+
 }
  
 .footer{
@@ -163,11 +166,141 @@ div#curlRightImage{
     justify-content: center;
     position:relative;
     top:100px;
-    height: 150px;;
+    height: 220px;;
 }
 
 .footer p{
     color:#24053E;
     font-size: 30px;
+}
+
+ /*Smartphones*/
+ @media(max-width:500px){
+   
+    .content{
+        justify-content: center;
+    }
+    .content span{
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    #CurlLeftImage{
+        display: none;
+    }
+
+    #CurlRightImage{
+        display: none;
+    }
+
+    .cellPhoneImage img{
+        max-width: 100%;
+    }
+
+    .flex-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    header{
+        height: 456px;
+    }
+
+    .flex-content-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .profile-content{
+        right: 0;
+        top:0;
+        width: 100%;
+    }
+
+    .flex-content-items img.person_img{
+        position: relative;
+        top: 103px;
+    }
+
+    #imageCurl{
+        display: none;;
+    }
+
+}
+
+/*Target tablets*/
+@media (min-width:501px) and (max-width:768px){   
+
+    .flex-content-items{
+        padding-left: 20px;
+    }
+
+    img.person_img{
+        padding-left: 0px;
+        height: 218px;
+    }
+
+    #tablet h1{
+        display: block;
+    }
+
+    .content span{
+        font-size: 60px;
+        line-height: 35px;
+    }
+
+    .cellPhoneImage img{
+        max-width: 100%;
+    }
+
+    .flex-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 200px;
+    }
+
+    .profile-content img{
+        position: relative;
+    }
+
+    body{
+        background-color: yellow;
+    }
+}
+
+/*Target Normal*/
+@media (min-width:769px) and (max-width:1200px){
+ 
+    .content span{
+        font-size: 70px;
+        line-height: 50px;
+    }
+
+    .cellPhoneImage img{
+        max-width: 100%;
+    }
+
+   body{
+    background-color: pink;
+   }
+
+}
+
+
+
+/*Target Landscape*/
+@media (max-height:500x){
+   
+    #landscape h1{
+        display: block;
+    }
 }
 

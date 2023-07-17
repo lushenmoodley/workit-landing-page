@@ -9,10 +9,14 @@ body{
     font-family: 'Fraunces 144pt';
     font-style: normal;
     line-height: 40px;
-    background: #FCF8FF;
+    background: white;
 }
 
 header{
+    background-color: #FCF8FF;
+}
+
+.borderbackground{
     background-color: #24053E;
     height:50vh;
     border-radius: 0 0 50% 50%/0 0 10% 10%;
@@ -50,6 +54,11 @@ header{
     justify-content: space-between;
 }
 
+.underline{
+    text-decoration: underline #44FFA1 3px;
+
+}
+
 .content span{
     color:white;
     font-style: normal;
@@ -83,6 +92,7 @@ div#curlRightImage{
     text-align: center;
     padding-top: 130px;
     color:#24053E;
+
 }  
 
 .flex-items .items{
@@ -173,9 +183,24 @@ div#curlRightImage{
     font-size: 30px;
 }
 
+header:after{
+    position: absolute;
+    z-index: -1;
+}
+
+.social a {
+    margin: 5px;
+}
+
+
+
  /*Smartphones*/
  @media(max-width:500px){
    
+    .footer{
+        height: 0px;
+    }
+
     .profile-content img{
         display: none;
     }
@@ -206,7 +231,7 @@ div#curlRightImage{
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding-top: 80px;
+        padding-top: 120px;
     }
 
     header{
@@ -228,6 +253,12 @@ div#curlRightImage{
     .flex-content-items img.person_img{
         position: relative;
         top: 103px;
+    }
+
+    .flex-items
+    {
+    border-radius: 0 0 50% 50%/0 0 10% 10%;
+    background-color:  #FCF8FF;/*#FCF8FF*/
     }
 
   
@@ -268,9 +299,14 @@ div#curlRightImage{
         padding-top: 200px;
     }
 
-    body{
-        background-color: yellow;
+    .flex-items
+    {
+    border-radius: 0 0 50% 50%/0 0 10% 10%;
+    background-color:  #FCF8FF;/*#FCF8FF*/
     }
+
+
+   
 }
 
 /*Target Normal*/
@@ -285,9 +321,17 @@ div#curlRightImage{
         max-width: 100%;
     }
 
-   body{
-    background-color: pink;
-   }
+    .flex-items
+    {
+    border-radius: 0 0 50% 50%/0 0 10% 10%;
+    background-color: #979797;/*#FCF8FF*/
+    }
+
+    .flex-items
+    {
+    border-radius: 0 0 50% 50%/0 0 10% 10%;
+    background-color:  #FCF8FF;/*#FCF8FF*/
+    }
 
 }
 
